@@ -47,8 +47,9 @@ paths used in this document.
 2. Make the binary executable and move the binary to the plugin directory:
 
    - Linux:
-
+    (this command uses `latest`)
      ```bash
+     wget  https://github.com/open-cluster-management-io/policy-generator-plugin/releases/latest/download/linux-amd64-PolicyGenerator
      chmod +x linux-amd64-PolicyGenerator
      mv linux-amd64-PolicyGenerator ${HOME}/.config/kustomize/plugin/policy.open-cluster-management.io/v1/policygenerator/PolicyGenerator
      ```
